@@ -1,0 +1,62 @@
+body{
+    margin: 10px 30px 10px 30px;
+    padding: 10px ;
+}
+main{
+    border: 2px solid white;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    color: white;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+.d1{
+    background: linear-gradient(180deg,#a8ff78,#78ffd6);
+    margin: 10px 5px 10px 5px;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 300px;
+    width: 250px;
+}
+p{
+    align-content: end;
+}
+.pd1{
+    border: 1px solid white ;
+    border-radius: 10px;
+    padding: 5px;
+    background: white;
+    color: grey;
+    position: relative;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+    transition-property: ease-out;
+}
+
+.pd1:hover{
+    background: black;
+    transform: rotateY(180deg);
+}
+.d2{
+    background: linear-gradient(180deg,#005AA7,#FFFDE4);
+    margin: 10px 5px 10px 5px;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 300px;
+    width: 250px;
+}
+.d3{
+    background: linear-gradient(180deg,#FC466B,#3F5EFB);
+    margin: 10px 5px 10px 5px;
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 300px;
+    width: 250px;
+}
+
+
+

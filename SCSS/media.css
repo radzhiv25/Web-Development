@@ -1,0 +1,23 @@
+header {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  color: #389282;
+}
+
+header button {
+  background: #38928e;
+}
+
+header:hover {
+  background: red;
+}
+
+header::before {
+  content: 'hello';
+}
+
+.contact button {
+  background: #38928e;
+}
+/*# sourceMappingURL=media.css.map */

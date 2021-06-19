@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(105deg,#000046,#1CB5E0);
+    background-size: 1920px 1080px;
+    background-repeat: none;
+}
+div{
+    margin: 50px 300px 50px 300px;
+    background: rgba(255,255,255,0.15);
+    padding: 50px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    column-gap: 20px;
+    box-shadow: 1px 1px 1px white, 2px 2px 2px black;
+}
+span{
+    background: rgba(255,255,255,0.5);
+    padding: 20px;
+    border-radius: 10px;
+}

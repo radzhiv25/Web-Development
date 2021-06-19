@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A ;
+}
+
+li, a, button{
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none; 
+}
+header{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 30px  10%;
+    color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+p{
+    font-family: monospace;
+    cursor: pointer;
+    margin-right: auto;
+    font-size: 20px;
+}
+.nav-link{
+    list-style: none;
+}
+.nav-link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-link li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-link li a:hover{
+    color: #0088a9;
+}
+button{
+    margin-left: 30px;
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+main{
+    margin: 0px 20px 0px 20px;
+    padding: 0px 30px 0px 30px;
+}
+main{
+    font-family: monospace;
+    margin: 0px 40px 0px 40px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    font-size: 20px;
+}
+.d1{
+    margin: 0px 0px 0px 10px;
+    padding: 15px 5px 5px 5px;
+    border-bottom: 1px solid white;
+}
+.d2{
+    margin: 0px 10px 0px 0px;
+    padding: 10px;
+    border-left: 1px solid #0088a9;
+}
+p{
+    font-size: 15px;
+}
