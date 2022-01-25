@@ -13,8 +13,6 @@ header{
 .img{ 
     margin-right: auto;
 }
-.nav-bar{
-}
 li{
     font-size: 15px;
     list-style: none;
@@ -34,6 +32,7 @@ li{
     font-weight: bolder;
 }
 #logo{
+    display: -ms-grid;
     display: grid;
     grid-template-columns: 60% auto;
 }
@@ -147,29 +146,29 @@ body main{
 }
 .faq1{
     margin: 0px 10px 10px 10px;
-    padding-right: 900px;
-    padding-bottom: 40px;
+    padding-right: 700px;
+    padding-bottom: 35px;
     border-bottom: 1px solid grey;
 }
 .faq2{
     margin: 0px 10px 10px 10px;
     padding-top: 20px;
-    padding-right: 700px;
-    padding-bottom: 40px;
+    padding-right: 600px;
+    padding-bottom: 35px;
     border-bottom: 1px solid grey;
 }
 .faq3{
     margin: 0px 10px 10px 10px;
     padding-top: 40px;
-    padding-right: 900px;
-    padding-bottom: 40px;
+    padding-right: 700px;
+    padding-bottom: 35px;
     border-bottom: 1px solid grey;
 }
 .faq4{
     margin: 0px 10px 10px 10px;
     padding-top: 60px;
-    padding-right: 700px;
-    padding-bottom: 40px;
+    padding-right: 600px;
+    padding-bottom: 35px;
     border-bottom: 1px solid grey;
 }
 .end{
@@ -182,12 +181,14 @@ footer{
 }
 .img-foot{
     margin-right: auto;
+    margin-top: 30px;
 }
 .botlist{
     color: gray;
     font-weight: bold;
     display: inline-block;
-    margin: 0px 250px 0px 170px;
+    /*margin: 0px 250px 10px 170px;*/
+    padding-right: 200px;
 }
 .foot{
     display: flex;
